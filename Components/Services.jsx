@@ -1,10 +1,10 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import { createContext } from 'react';
+
 
 
 function Services() {
-    const MyContext = createContext();
+    
     return (
         <>
         
