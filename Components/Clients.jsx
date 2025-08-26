@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { createContext } from 'react'; // ✅ CORRECT
 
 function Clients() {
     const cardVariants = {

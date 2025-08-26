@@ -1,12 +1,16 @@
 import React from 'react'
 import { motion } from "framer-motion";
+import { createContext } from 'react';
 
 
 function Services() {
+    const MyContext = createContext();
     return (
         <>
+        
             {/* WHAT WE DO */}
             <div style={{ padding: "60px 20px", backgroundColor: "#F3F1EE" }}>
+                
 
                 <div style={{ maxWidth: "1200px", margin: "0 auto", marginTop: '5px' }}>
                     <h2 style={{ fontSize: "25px", fontWeight: "bold", fontFamily: "'Roboto', sans-serif", color: "#333", textAlign: "center" }}>
